@@ -21,11 +21,13 @@ class main():
 		except Exception as error:
 			print("Start.main_st -->", error)
 
+t = 0 
 
-i = main()
-for rols in range(10):
-	A.write("0")
-	print("execuçao -> ", rols)
+while True:
+	i = main()
+	if t >= 3:
+		A.write("0")
+		t=0
+	print("execuçao -> ", t)	
 	i.main_st()
-
-
+	t+=1
