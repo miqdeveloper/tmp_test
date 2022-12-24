@@ -1,0 +1,9 @@
+{   
+    
+    "ativo": "EURUSD-OTC", 
+    "qdates": "58", 
+    "money": "2", 
+    "time": "1",
+    "call":"call",
+    "put":"put"
+}
