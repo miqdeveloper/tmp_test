@@ -21,9 +21,10 @@ class main():
 
 t = 0 
 i = main()
+
 while True:
 	while strftime("%S") == '58':	
-		if (t >= 4):
+		if (t >= 3):
 			A.write("0")
 			t=0
 		print("execuçao -> ", t)	

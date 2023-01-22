@@ -46,7 +46,7 @@ class buy_digital_action():
 				self.iq.change_balance(self.account)
 				try:
 					if self.martingale[0] == "-":
-						self.money = float(self.martingale[1:]) * 2.3
+						self.money = float(self.martingale[1:]) * 2
 						money = self.money
 					else:
 						pass
@@ -60,7 +60,7 @@ class buy_digital_action():
 						self.win = ('%0.2f' %self.win)
 						print(self.win)
 						if self.win[0] == '-':
-							self.write(self.win)							
+							self.write(self.win)
 							print("Perdeu -->", self.win)							
 						else:
 							self.write(self.win)
